@@ -1,0 +1,302 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/segoeui.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Segoe UI Light";
+    src: url("../fonts/segoeuil.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Segoe UI Bold";
+    src: url("../fonts/segoeuib.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    transition: all .3s;
+}
+
+body {
+    font: lighter 18px 'Segoe UI';
+    color: #323141;
+}
+
+h1, h2, h3 {
+    font-family: "Segoe UI Bold";
+    font-weight: lighter;
+}
+
+
+.color-1 {
+    color: #EB7556;
+}
+
+/* HEADER, TOP NAVIGATION*/
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 85px;
+    line-height: 85px;
+    padding: 0 4%;
+    z-index: 10;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header .logo img {
+    height: 55px;
+    margin: 15px 0;
+}
+
+.header .menu {
+    float: right;
+}
+
+.header .menu a {
+    color: #323141;
+    margin: 0 25px;
+    font-size: 17px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    font-family: "Segoe UI Light";
+}
+
+.header .menu a:hover {
+    border-bottom: 1.8px solid #323141;
+}
+
+.header .menu .active {
+    border-bottom: 1.8px solid #323141;
+}
+
+.header .btn {
+    padding: 7px 40px;
+    border-radius: 50px;
+    border: 1px solid #323141 !important;
+}
+
+.header .btn:hover {
+    background: #323141;
+    color: #fff !important;
+}
+
+/* HERO SCENE */
+
+.hero {
+    height: 100vh;
+    padding: calc((100vh - 370px) / 2) 0;
+}
+
+.hero .content {
+    float: right;
+    width: 50vw;
+    margin-left: 50vw;
+    display: inline-block;
+}
+
+.hero h2 {
+    margin-top: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #EB7556;
+}
+
+.hero h1 {
+    margin-top: 10px;
+    font-size: 70px;
+    font-family: "Segoe UI Bold";
+    color: #353445;
+}
+
+.hero p {
+    width: 440px;
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.hero .hero-image {
+    width: 533px;
+    left: 4%;
+    position: absolute;
+    bottom: 20%;
+    z-index: -1;
+}
+
+.hero .object {
+    position: absolute;
+    width: 134px;
+    z-index: 10;
+}
+
+.hero .object-1 {bottom: 30px; right: 85%;}
+.hero .object-2 {top: -75px; left: 30%;}
+.hero .object-3 {bottom: -55px; right: 300px; width: 150px;}
+.hero .object-4 {bottom: -395px; right: 50px; width: 100px;}
+.hero .object-5 {bottom: -605px; right: 600px; width: 100px;}
+.hero .object-6 {bottom: -350px; right: 1270px;}
+.hero .object-7 {bottom: -1075px; left: -4%;}
+.hero .object-8 {bottom: -1155px; right: 500px; width: 120px;}
+.hero .object-9 {bottom: -1550px; left: 50px; width: 150px;}
+.hero .object-10 {bottom: -1455px; right: 0px; width: 120px;}
+.hero .object-11 {bottom: -900px; right: 0px; width: 150px;}
+
+
+.hero .mouse {
+    position: absolute;
+    width: 55px;
+    bottom: 22px;
+    right: calc((100vw - 55px) / 2);
+}
+
+.hero .btn {
+    text-transform: uppercase;
+    padding: 13px 40px;
+    font-size: 16px;
+    color: #FFF;
+    background: #EB7556;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+    border-radius: 50px;
+    transition: all .3s;
+    margin-top: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.hero .btn:hover {
+    background: #EF886D;
+    color: #FFFFFF;
+}
+
+.grey {
+    background-color: #f2f2f2;
+    height: 540px;
+}
+
+.white {
+    background-color: #fff;
+    height: 540px;
+}
+
+.one {
+    float: right;
+    width: 50vw;
+    display: inline-block;
+}
+
+.one img {
+    width: 350px;
+    margin-top: 50px;
+    left: 11%;
+    position: absolute;
+}
+
+.one h1 {
+    width: 640px;
+    font-size: 60px;
+    font-family: "Segoe UI Bold";
+    color: #EB7556;
+    margin-top: 20%;
+}
+
+.one p {
+    width: 440px;
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.two {
+    float: left;
+    width: 50vw;
+    display: inline-block;
+}
+
+.two img {
+    width: 350px;
+    margin-top: 50px;
+    right: 11%;
+    position: absolute;
+}
+
+.two h1 {
+    width: 640px;
+    font-size: 60px;
+    font-family: "Segoe UI Bold";
+    color: #EB7556;
+    margin-top: 20%;
+    margin-left: 10vw;
+}
+
+.two p {
+    width: 440px;
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    margin-left: 10vw;
+}
+
+.color {
+    background-color: #f2f2f2;
+    height: 540px;
+    width: 100%;
+    position: absolute;
+}
+
+.color .btn {
+    text-transform: uppercase;
+    padding: 13px 40px;
+    font-size: 16px;
+    color: #FFF;
+    background: #EB7556;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+    border-radius: 50px;
+    transition: all .3s;
+    margin-top: 40px;
+    display: inline-block;
+    margin-left: 42.5%;
+}
+
+.color .btn:hover {
+    background: #EF886D;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.color h1 {
+    font-size: 60px;
+    font-family: "Segoe UI Bold";
+    color: #EB7556;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.color p {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    right: calc((100vw - 55px) / 2);
+    text-align: center;
+}
